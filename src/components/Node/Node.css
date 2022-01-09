@@ -1,0 +1,79 @@
+.node{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 189, 223);
+}
+
+.start-node{
+    background: blue !important;
+}
+
+.end-node{
+    background: green !important;
+}
+
+.is-wall{
+    background: rgb(0, 255, 213) !important;
+}
+
+.visited-node{
+  animation-name: visitedNode;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.path-node{
+  animation-name: shortestPath;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+
+@keyframes visitedNode{
+    0% {
+        transform: scale(0.3);
+        background-color: rgba(59, 59, 105, 0.75);
+        border-radius: 100%;
+      }
+    
+      50% {
+        background-color: rgba(17, 104, 217, 0.75);
+      }
+    
+      75% {
+        transform: scale(1.2);
+        background-color: rgba(0, 184, 217, 0.75);
+      }
+    
+      100% {
+        transform: scale(1);
+        background-color: #275683;
+      }
+}
+
+@keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color:  #48eefddf;
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color:  #48cafd;
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: #48a3fd
+    }
+  }

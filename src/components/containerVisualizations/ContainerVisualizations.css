@@ -1,0 +1,21 @@
+.ContainerVisualizations{
+    width: 100%;
+    height: 100%;
+    grid-area: ContainerVisualizations;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #240046;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .ContainerVisualizations{
+        grid-template-columns: 97%;
+        grid-template-rows: 50% 50%;
+        gap: 0px;
+    }
+}

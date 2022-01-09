@@ -1,0 +1,58 @@
+.Config{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    background: #10002B;
+    display: grid;
+    grid-template-columns: 50% calc(50% - 10px);
+    grid-template-rows: repeat(5,50px);
+    grid-gap: 10px;
+    grid-template-areas: "start start"
+               "addOrRemove two"
+               "clearPath clearPath"
+               "clearAll clearAll"
+               "maze maze";
+    padding: 70px 5px;
+    transform: translateX(-500px);
+    transition: transform .3s ease;
+    z-index: 10;
+}
+
+.Config.active{
+    transform: translateX(0px);
+}
+
+.buttonConfig{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 5px solid rgba(0, 75, 136, 0.822);
+    color: #fff;
+    background: rgb(0, 0, 49);
+}
+
+.startPath{
+    grid-area: start;
+}
+
+.addOrRemove{
+    grid-area: addOrRemove;
+}
+
+.two{
+    grid-area: two;
+}
+
+.clearPath{
+    grid-area: clearPath;
+}
+
+.clearAll{
+    grid-area: clearAll;
+}
+
+.maze{
+    grid-area: maze;
+}
