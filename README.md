@@ -1,6 +1,6 @@
 # Path Finding Visualization
 this pathfinding visualization is creating in React
-# Live Dome
+# Live Demo
 Link https://gabrieltrinidad0101.github.io/pathFindingVisualization/
 
 # Getting Started with Create React App
