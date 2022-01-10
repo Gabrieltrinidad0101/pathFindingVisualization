@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pathFindingVisualization/static/css/main.e397bd64.chunk.css",
+    "main.js": "/pathFindingVisualization/static/js/main.08ee52c5.chunk.js",
+    "main.js.map": "/pathFindingVisualization/static/js/main.08ee52c5.chunk.js.map",
+    "runtime-main.js": "/pathFindingVisualization/static/js/runtime-main.edad5ad3.js",
+    "runtime-main.js.map": "/pathFindingVisualization/static/js/runtime-main.edad5ad3.js.map",
+    "static/js/2.ac1f8464.chunk.js": "/pathFindingVisualization/static/js/2.ac1f8464.chunk.js",
+    "static/js/2.ac1f8464.chunk.js.map": "/pathFindingVisualization/static/js/2.ac1f8464.chunk.js.map",
+    "index.html": "/pathFindingVisualization/index.html",
+    "static/css/main.e397bd64.chunk.css.map": "/pathFindingVisualization/static/css/main.e397bd64.chunk.css.map",
+    "static/js/2.ac1f8464.chunk.js.LICENSE.txt": "/pathFindingVisualization/static/js/2.ac1f8464.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edad5ad3.js",
+    "static/js/2.ac1f8464.chunk.js",
+    "static/css/main.e397bd64.chunk.css",
+    "static/js/main.08ee52c5.chunk.js"
+  ]
+}
