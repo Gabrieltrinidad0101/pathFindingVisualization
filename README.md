@@ -1,3 +1,8 @@
+# Path Finding Visualization
+this pathfinding visualization is creating in React
+# Live Dome
+Link https://gabrieltrinidad0101.github.io/pathFindingVisualization/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
