@@ -17,6 +17,9 @@ export default function Node({isStart, isFinish, row,col,onMouseDown,
              onMouseDown={_=>onMouseDown(row,col,typeNode)}
              onMouseEnter={_=>onMouseEnter(row,col)}
              onMouseUp={_=>onMouseUp()}
+             onTouchStart={_=>onMouseDown(row,col,typeNode)}
+             onTouchMove={_=>onMouseEnter(row,col)}
+             onTouchEnd={_=>onMouseUp()}
              draggable="false"
              >
         </div>
